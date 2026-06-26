@@ -4,6 +4,7 @@ This project implements an image-classification pipeline for visible object and 
 The task is a 6-class classification problem with an additional binary weapon-detection interpretation.
 ## Dataset
 Original dataset: [OD-WeaponDetection: Sohas Detection Dataset](https://datasetninja.com/od-weapon-detection-sohas-detection)
+Check points for the models [here](https://drive.google.com/file/d/1Dnjoz_YI_TFjakZOJSrq3upEHP213jnD/view?usp=sharing)
 ## Project Goal
 
 The goal is to compare a custom CNN against transfer-learning models for classifying images into:
