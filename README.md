@@ -5,7 +5,7 @@ The task is a 6-class classification problem with an additional binary weapon-de
 ## Dataset
 Original dataset: [OD-WeaponDetection: Sohas Detection Dataset](https://datasetninja.com/od-weapon-detection-sohas-detection)
 
-Check points for models [here](https://drive.google.com/file/d/1Dnjoz_YI_TFjakZOJSrq3upEHP213jnD/view?usp=sharing)
+Check points for models: [here](https://drive.google.com/file/d/1Dnjoz_YI_TFjakZOJSrq3upEHP213jnD/view?usp=sharing)
 
 The original dataset used in this project is the OD-WeaponDetection / Sohas Detection Dataset, available from DatasetNinja at the link above. The dataset contains images and annotation files used for multiclass object classification and binary weapon/non-weapon detection. Because the full dataset and trained model checkpoint files are too large to store directly in this GitHub repository, the processed project data and trained checkpoints are provided separately through the Google Drive link. To reproduce the project, download the files from Google Drive and place them in the expected folders described below.
 
