@@ -1,0 +1,132 @@
+{
+  "raw_all": {
+    "billete": {
+      "count": 777,
+      "percentage": 8.141240569991618
+    },
+    "knife": {
+      "count": 2349,
+      "percentage": 24.612321877619447
+    },
+    "monedero": {
+      "count": 813,
+      "percentage": 8.518440905280805
+    },
+    "pistol": {
+      "count": 3975,
+      "percentage": 41.64920368818106
+    },
+    "smartphone": {
+      "count": 1184,
+      "percentage": 12.405699916177703
+    },
+    "tarjeta": {
+      "count": 446,
+      "percentage": 4.673093042749371
+    }
+  },
+  "train": {
+    "billete": {
+      "count": 544,
+      "percentage": 8.1437125748503
+    },
+    "knife": {
+      "count": 1644,
+      "percentage": 24.610778443113773
+    },
+    "monedero": {
+      "count": 569,
+      "percentage": 8.517964071856287
+    },
+    "pistol": {
+      "count": 2782,
+      "percentage": 41.64670658682635
+    },
+    "smartphone": {
+      "count": 829,
+      "percentage": 12.410179640718564
+    },
+    "tarjeta": {
+      "count": 312,
+      "percentage": 4.6706586826347305
+    }
+  },
+  "validation": {
+    "billete": {
+      "count": 116,
+      "percentage": 8.100558659217876
+    },
+    "knife": {
+      "count": 353,
+      "percentage": 24.650837988826815
+    },
+    "monedero": {
+      "count": 122,
+      "percentage": 8.519553072625698
+    },
+    "pistol": {
+      "count": 596,
+      "percentage": 41.62011173184357
+    },
+    "smartphone": {
+      "count": 178,
+      "percentage": 12.430167597765362
+    },
+    "tarjeta": {
+      "count": 67,
+      "percentage": 4.67877094972067
+    }
+  },
+  "original_test_split": {
+    "billete": {
+      "count": 117,
+      "percentage": 8.170391061452515
+    },
+    "knife": {
+      "count": 352,
+      "percentage": 24.581005586592177
+    },
+    "monedero": {
+      "count": 122,
+      "percentage": 8.519553072625698
+    },
+    "pistol": {
+      "count": 597,
+      "percentage": 41.68994413407821
+    },
+    "smartphone": {
+      "count": 177,
+      "percentage": 12.360335195530727
+    },
+    "tarjeta": {
+      "count": 67,
+      "percentage": 4.67877094972067
+    }
+  },
+  "exported_balanced_test": {
+    "billete": {
+      "count": 67,
+      "percentage": 16.666666666666664
+    },
+    "knife": {
+      "count": 67,
+      "percentage": 16.666666666666664
+    },
+    "monedero": {
+      "count": 67,
+      "percentage": 16.666666666666664
+    },
+    "pistol": {
+      "count": 67,
+      "percentage": 16.666666666666664
+    },
+    "smartphone": {
+      "count": 67,
+      "percentage": 16.666666666666664
+    },
+    "tarjeta": {
+      "count": 67,
+      "percentage": 16.666666666666664
+    }
+  }
+}

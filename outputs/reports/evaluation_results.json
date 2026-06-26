@@ -1,0 +1,383 @@
+[
+  {
+    "model": "scratch",
+    "accuracy": 0.7935323383084577,
+    "balanced_accuracy": 0.7935323383084577,
+    "macro_precision": 0.8002962814333879,
+    "macro_recall": 0.7935323383084577,
+    "macro_f1": 0.7933445252395669,
+    "weighted_precision": 0.8002962814333878,
+    "weighted_recall": 0.7935323383084577,
+    "weighted_f1": 0.7933445252395669,
+    "binary_accuracy": 0.8930348258706468,
+    "binary_precision": 0.7898089171974523,
+    "binary_recall": 0.9253731343283582,
+    "binary_f1": 0.852233676975945,
+    "binary_roc_auc": 0.9800902205390954,
+    "binary_pr_auc": 0.9647504305352947,
+    "total_images": 402,
+    "total_errors": 83,
+    "multiclass_error_rate": 0.2064676616915423,
+    "binary_errors": 43,
+    "false_positives": 33,
+    "false_negatives": 10,
+    "model_load_time_seconds": 0.05989799997769296,
+    "total_inference_time_seconds": 1.4806422574911267,
+    "avg_inference_time_ms": 3.683189695251559,
+    "images_per_second": 271.50380043939083,
+    "model_size_mb": 9.148091316223145,
+    "parameter_count": 2389030,
+    "per_class": {
+      "billete": {
+        "precision": 0.9322033898305084,
+        "recall": 0.8208955223880597,
+        "f1_score": 0.873015873015873,
+        "support": 67
+      },
+      "knife": {
+        "precision": 0.7126436781609196,
+        "recall": 0.9253731343283582,
+        "f1_score": 0.8051948051948052,
+        "support": 67
+      },
+      "monedero": {
+        "precision": 0.7704918032786885,
+        "recall": 0.7014925373134329,
+        "f1_score": 0.734375,
+        "support": 67
+      },
+      "pistol": {
+        "precision": 0.7714285714285715,
+        "recall": 0.8059701492537313,
+        "f1_score": 0.7883211678832117,
+        "support": 67
+      },
+      "smartphone": {
+        "precision": 0.7868852459016393,
+        "recall": 0.7164179104477612,
+        "f1_score": 0.75,
+        "support": 67
+      },
+      "tarjeta": {
+        "precision": 0.828125,
+        "recall": 0.7910447761194029,
+        "f1_score": 0.8091603053435115,
+        "support": 67
+      }
+    },
+    "multiclass_confusion_matrix": [
+      [
+        55,
+        7,
+        2,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        62,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        0,
+        3,
+        47,
+        8,
+        8,
+        1
+      ],
+      [
+        1,
+        6,
+        5,
+        54,
+        0,
+        1
+      ],
+      [
+        0,
+        4,
+        6,
+        3,
+        48,
+        6
+      ],
+      [
+        3,
+        5,
+        1,
+        2,
+        3,
+        53
+      ]
+    ],
+    "binary_confusion_matrix": [
+      [
+        235,
+        33
+      ],
+      [
+        10,
+        124
+      ]
+    ]
+  },
+  {
+    "model": "transfer",
+    "accuracy": 0.9601990049751243,
+    "balanced_accuracy": 0.9601990049751244,
+    "macro_precision": 0.9608384226250776,
+    "macro_recall": 0.9601990049751244,
+    "macro_f1": 0.9603595052826996,
+    "weighted_precision": 0.9608384226250776,
+    "weighted_recall": 0.9601990049751243,
+    "weighted_f1": 0.9603595052826996,
+    "binary_accuracy": 0.9875621890547264,
+    "binary_precision": 0.9708029197080292,
+    "binary_recall": 0.9925373134328358,
+    "binary_f1": 0.981549815498155,
+    "binary_roc_auc": 0.9992760080196035,
+    "binary_pr_auc": 0.9985378494138839,
+    "total_images": 402,
+    "total_errors": 16,
+    "multiclass_error_rate": 0.03980099502487562,
+    "binary_errors": 5,
+    "false_positives": 4,
+    "false_negatives": 1,
+    "model_load_time_seconds": 0.21084812504705042,
+    "total_inference_time_seconds": 1.6130575463175774,
+    "avg_inference_time_ms": 4.012580960988998,
+    "images_per_second": 249.21615531802894,
+    "model_size_mb": 42.72150707244873,
+    "parameter_count": 11179590,
+    "per_class": {
+      "billete": {
+        "precision": 0.9701492537313433,
+        "recall": 0.9701492537313433,
+        "f1_score": 0.9701492537313433,
+        "support": 67
+      },
+      "knife": {
+        "precision": 0.9552238805970149,
+        "recall": 0.9552238805970149,
+        "f1_score": 0.9552238805970149,
+        "support": 67
+      },
+      "monedero": {
+        "precision": 0.9846153846153847,
+        "recall": 0.9552238805970149,
+        "f1_score": 0.9696969696969697,
+        "support": 67
+      },
+      "pistol": {
+        "precision": 0.9285714285714286,
+        "recall": 0.9701492537313433,
+        "f1_score": 0.948905109489051,
+        "support": 67
+      },
+      "smartphone": {
+        "precision": 0.9264705882352942,
+        "recall": 0.9402985074626866,
+        "f1_score": 0.9333333333333333,
+        "support": 67
+      },
+      "tarjeta": {
+        "precision": 1.0,
+        "recall": 0.9701492537313433,
+        "f1_score": 0.9848484848484849,
+        "support": 67
+      }
+    },
+    "multiclass_confusion_matrix": [
+      [
+        65,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        64,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        64,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        65,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        63,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1,
+        65
+      ]
+    ],
+    "binary_confusion_matrix": [
+      [
+        264,
+        4
+      ],
+      [
+        1,
+        133
+      ]
+    ]
+  },
+  {
+    "model": "mobilenetv2",
+    "accuracy": 0.9577114427860697,
+    "balanced_accuracy": 0.9577114427860697,
+    "macro_precision": 0.9590740892702515,
+    "macro_recall": 0.9577114427860697,
+    "macro_f1": 0.9579602552014497,
+    "weighted_precision": 0.9590740892702517,
+    "weighted_recall": 0.9577114427860697,
+    "weighted_f1": 0.9579602552014499,
+    "binary_accuracy": 0.9776119402985075,
+    "binary_precision": 0.9432624113475178,
+    "binary_recall": 0.9925373134328358,
+    "binary_f1": 0.9672727272727273,
+    "binary_roc_auc": 0.9997215415460013,
+    "binary_pr_auc": 0.9994817578772803,
+    "total_images": 402,
+    "total_errors": 17,
+    "multiclass_error_rate": 0.04228855721393035,
+    "binary_errors": 9,
+    "false_positives": 8,
+    "false_negatives": 1,
+    "model_load_time_seconds": 0.19452187500428408,
+    "total_inference_time_seconds": 2.729068934218958,
+    "avg_inference_time_ms": 6.78872869208696,
+    "images_per_second": 147.30298489695343,
+    "model_size_mb": 8.74476146697998,
+    "parameter_count": 2231558,
+    "per_class": {
+      "billete": {
+        "precision": 0.984375,
+        "recall": 0.9402985074626866,
+        "f1_score": 0.9618320610687023,
+        "support": 67
+      },
+      "knife": {
+        "precision": 0.9558823529411765,
+        "recall": 0.9701492537313433,
+        "f1_score": 0.9629629629629629,
+        "support": 67
+      },
+      "monedero": {
+        "precision": 0.9692307692307692,
+        "recall": 0.9402985074626866,
+        "f1_score": 0.9545454545454546,
+        "support": 67
+      },
+      "pistol": {
+        "precision": 0.8904109589041096,
+        "recall": 0.9701492537313433,
+        "f1_score": 0.9285714285714286,
+        "support": 67
+      },
+      "smartphone": {
+        "precision": 0.9696969696969697,
+        "recall": 0.9552238805970149,
+        "f1_score": 0.9624060150375939,
+        "support": 67
+      },
+      "tarjeta": {
+        "precision": 0.9848484848484849,
+        "recall": 0.9701492537313433,
+        "f1_score": 0.9774436090225563,
+        "support": 67
+      }
+    },
+    "multiclass_confusion_matrix": [
+      [
+        63,
+        1,
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        65,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        63,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        0,
+        65,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        64,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        65
+      ]
+    ],
+    "binary_confusion_matrix": [
+      [
+        260,
+        8
+      ],
+      [
+        1,
+        133
+      ]
+    ]
+  }
+]

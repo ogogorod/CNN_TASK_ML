@@ -1,0 +1,5 @@
+
+# Model checkpoints / large weights
+outputs/checkpoints/*
+!outputs/checkpoints/.gitkeep
+*.pt
