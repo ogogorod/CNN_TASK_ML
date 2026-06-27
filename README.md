@@ -8,7 +8,26 @@ Original dataset: [OD-WeaponDetection: Sohas Detection Dataset](https://datasetn
 Check points for models: [here](https://drive.google.com/file/d/1Dnjoz_YI_TFjakZOJSrq3upEHP213jnD/view?usp=sharing)
 
 The original dataset used in this project is the OD-WeaponDetection / Sohas Detection Dataset, available from DatasetNinja at the link above. The dataset contains images and annotation files used for multiclass object classification and binary weapon/non-weapon detection. Because the full dataset and trained model checkpoint files are too large to store directly in this GitHub repository, the processed project data and trained checkpoints are provided separately through the Google Drive link. To reproduce the project, download the files from Google Drive and place them in the expected folders described below.
+## External Test
 
+The models were also evaluated on an external test set that was not used for training, validation, or internal testing.
+
+To run the external test, replace the test data in the `data/` folder with the external dataset and run the evaluation script.
+
+**External data sources:**
+
+- [Euro banknotes](https://universe.roboflow.com/currencybanknote/euro-banknote-detection/dataset/1)
+- [Credit cards](https://universe.roboflow.com/khaled-6hzrf/credit-card-detector-mltzy/dataset/2)
+- [Mobile phones](https://universe.roboflow.com/somil/mobile-lyafq/dataset/2)
+- [Wallets](https://universe.roboflow.com/lostfound-jy7qx/wallet_proj/dataset/1)
+- [Pistols](https://www.kaggle.com/datasets/kamipakistan/pistol-dataset)
+- [Knives](https://www.kaggle.com/datasets/shank885/knife-dataset)
+
+**Original dataset:**
+
+- [Google Drive dataset](https://drive.google.com/file/d/1Srd3g9uRPaGWiH_AhJYw3OjTPfl8ZkjS/view?usp=sharing)
+
+External test results are stored in `outputs/external_test/`.
 ## Project Goal
 
 The goal is to compare a custom CNN against transfer-learning models for classifying images into:
