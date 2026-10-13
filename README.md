@@ -266,7 +266,13 @@ Run inference on a folder or glob pattern:
 ```bash
 python src/infer.py --model mobilenetv2 --image "data/test/img/*.jpg"
 ```
+## Demo App
 
+Interactive GUI for inference with an optional Grad-CAM overlay (requires the checkpoints in `outputs/checkpoints/`):
+
+```bash
+python src/demo_app.py
+```
 ## Evaluation
 
 Evaluate all models on the exported balanced test dataset:
